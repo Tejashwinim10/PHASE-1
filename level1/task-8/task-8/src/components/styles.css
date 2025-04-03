@@ -1,0 +1,58 @@
+
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message {
+    font-size: 18px;
+    text-align: center;
+    color: #0c0c0c;
+    text-shadow: 2px 3px 5px grey;
+    font-size: 200%;
+  }
+  
+  
+  .admin-content {
+    background-color: #ffe4c4;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .admin-message {
+    color: #d2691e;
+    font-size: 16px;
+  }
+  
+
+  .user-content {
+    background-color: #d4f1f9;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .user-message {
+    color: #1e90ff;
+    font-size: 16px;
+  }
+
+  .controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }

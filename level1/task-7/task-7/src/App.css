@@ -1,0 +1,33 @@
+.crud{
+  list-style-type: none; 
+  margin: 20px auto; 
+  width: 300px;
+  background-color: #f1e3e3;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  padding: 10%;
+  font-size: 16px;
+}
+
+.list-item {
+  padding: 10px 20px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  font-size: 150%;
+
+}
+
+.list-item:last-child {
+  border-bottom: none; 
+}
+
+.list-item:hover {
+  background-color: #e6f7ff;
+  cursor: pointer;
+}
+.L1{
+  font-size: 200%;
+  text-decoration:underline;
+}
