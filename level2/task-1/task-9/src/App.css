@@ -1,0 +1,30 @@
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: blue;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+  color: purple;
+  margin-top: 10px;
+}
