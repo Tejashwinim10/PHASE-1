@@ -1,0 +1,18 @@
+
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+div {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  color: black;
+}

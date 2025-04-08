@@ -1,0 +1,48 @@
+/* Counter.css */
+
+.crud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  gap: 20px;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.l1 {
+  font-size: 3rem;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: default;
+}
+
+.l2, .l3 {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #4caf50;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.l3 {
+  background-color: #f44336;
+}
+
+.l2:hover, .l3:hover {
+  transform: scale(1.1);
+}
+
+.l2:active, .l3:active {
+  transform: scale(0.95);
+}
