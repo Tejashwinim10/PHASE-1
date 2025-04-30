@@ -1,0 +1,12 @@
+let fullName = "John Doe";
+let upperCaseName = fullName.toUpperCase();
+let nameLength = fullName.length;
+let firstName = fullName.split(" ")[0]; 
+let hometown = "New York";
+let combined = fullName + " from " + hometown;
+console.log("Full Name:", fullName);
+console.log("Uppercase:", upperCaseName);
+console.log("Name Length:", nameLength);
+console.log("First Name:", firstName);
+console.log("Hometown:", hometown);
+console.log("Concatenated Result:", combined);
