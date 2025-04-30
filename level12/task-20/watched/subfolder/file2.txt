@@ -1,0 +1,2 @@
+This is file2 inside the subfolder of the watched directory.
+changed occured

@@ -1,0 +1,3 @@
+Averages: NaN, NaN, NaN, NaN
+Max Values: NaN, NaN, NaN, NaN
+Min Values: NaN, NaN, NaN, NaN

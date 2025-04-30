@@ -1,0 +1,1 @@
+This is file1 inside the watched directory.
