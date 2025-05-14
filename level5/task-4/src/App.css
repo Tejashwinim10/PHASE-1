@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+:root {
+    --primary-color: #6C63FF;
+    --secondary-color: #f3f3f3;
+    --accent-color: #ff6b6b;
+    --text-dark: #333;
+    --text-light: #777;
+    --card-bg: #fff;
+    --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #fefefe, #e8f0ff);
+    color: var(--text-dark);
+  }
+  
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  a:hover {
+    color: var(--accent-color);
+  }
+  

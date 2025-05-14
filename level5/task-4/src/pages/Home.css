@@ -1,0 +1,26 @@
+.home {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home h1 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .home input {
+    padding: 0.75rem 1rem;
+    width: 60%;
+    max-width: 400px;
+    font-size: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    transition: 0.3s ease;
+    outline: none;
+  }
+  
+  .home input:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px var(--accent-color);
+  }
+  

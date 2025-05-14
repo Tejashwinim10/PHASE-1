@@ -1,0 +1,35 @@
+.post-summary {
+    background: #f9fafc;
+    border: 1px solid #dfe6e9;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .post-summary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    background-color: #f5faff;
+  }
+  
+  .post-title {
+    font-size: 1.4rem;
+    color: #0984e3;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+  
+  .post-title:hover {
+    color: #2d3436;
+  }
+  
+  .post-summary p {
+    font-size: 1rem;
+    color: #636e72;
+    margin: 0;
+  }
+  

@@ -1,0 +1,17 @@
+.recipe-details {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+  }
+  .recipe-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 1rem 0;
+  }
+  .recipe-details ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+  
