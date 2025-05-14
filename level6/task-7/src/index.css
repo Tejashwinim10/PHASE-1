@@ -1,0 +1,74 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100%;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.theme-transition {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.theme-light {
+  --bg-color: #f5faff;
+  --text-color: #222;
+  --box-bg: #ffffff;
+  --button-bg: #007bff;
+  --button-color: #fff;
+}
+
+.theme-dark {
+  --bg-color: #121212;
+  --text-color: #f5f5f5;
+  --box-bg: #1f1f1f;
+  --button-bg: #555;
+  --button-color: #fff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.theme-box {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: var(--box-bg);
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.toggle-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+  .theme-box {
+    margin: 50px 20px;
+    padding: 20px;
+  }
+
+  .toggle-btn {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
