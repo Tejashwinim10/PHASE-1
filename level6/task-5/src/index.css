@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.fetch-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.status {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.status.loading {
+  color: #007bff;
+}
+
+.status.error {
+  color: #e74c3c;
+}
+
+.todo-card {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.todo-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+
+@media (max-width: 480px) {
+  .fetch-container {
+    padding: 20px;
+  }
+
+  .todo-card p {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
