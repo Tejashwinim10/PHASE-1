@@ -1,0 +1,27 @@
+.scroll-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    height: 80vh;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fafafa;
+  }
+  
+  .item {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  .loading {
+    padding: 1rem;
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  

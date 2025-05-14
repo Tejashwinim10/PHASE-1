@@ -1,0 +1,34 @@
+.resize-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .resize-container h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .size-box {
+    font-size: 1.2rem;
+    background: #f0f4ff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  @media (max-width: 500px) {
+    .resize-container {
+      padding: 1rem;
+    }
+  
+    .size-box {
+      font-size: 1rem;
+    }
+  }
+  

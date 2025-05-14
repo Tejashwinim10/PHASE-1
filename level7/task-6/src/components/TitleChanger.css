@@ -1,0 +1,32 @@
+.title-changer {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+  }
+  
+  .title-changer h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .title-changer p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .title-changer button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .title-changer button:hover {
+    background-color: #2980b9;
+  }
+  
