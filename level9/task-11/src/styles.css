@@ -1,0 +1,59 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .nav-link {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    padding: 2rem;
+  }
+  
+  /* Page specific styling */
+  .page-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Smooth Transition for the Layout */
+  * {
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .page-container {
+      transition: none;
+    }
+  }
+  

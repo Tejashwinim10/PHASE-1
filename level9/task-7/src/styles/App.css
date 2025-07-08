@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .input {
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .box, .highlight-box {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .highlight-box {
+    background-color: #fffae6;
+    border-color: #f5c518;
+  }
+  
+  .prime-list {
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
