@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App {
+  padding: 2rem;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  margin: auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.list-container {
+  max-height: 300px;
+  overflow-y: auto;
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
