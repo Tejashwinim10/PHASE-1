@@ -1,0 +1,24 @@
+{
+  "name": "user-hooks-app",
+  "version": "1.0.0",
+  "description": "A Node.js app demonstrating Mongoose middleware, hooks, and custom methods",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mongoose",
+    "hooks",
+    "middleware",
+    "user-model",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0"
+  }
+}
